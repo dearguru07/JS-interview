@@ -1,0 +1,10 @@
+.my-class{
+    background-color: red;
+    height: 200px ;
+    width: 400px;
+}
+.newClass{
+    width: 100px;
+    background-color: aqua;
+    height: 100px;
+}
