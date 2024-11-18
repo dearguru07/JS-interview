@@ -2,10 +2,12 @@
 
 // Solution() --error
 // add() --- error
+
 // let add=function Solution(){
 //         console.log('Hello to all')
 // }
 // add()
+
 
 
 function a() {
