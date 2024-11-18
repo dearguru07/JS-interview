@@ -1,0 +1,27 @@
+.cont{
+    margin: 10px auto;
+    width: 520px;
+    background-color: azure;
+    padding: 10px 25px;
+    align-items: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+input{
+    width: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    margin: 7px;
+    border: none;
+    outline: none;
+}
+button{
+    padding: 10px 30px;
+    background-color: purple;
+    font-weight: bolder;
+    color: aliceblue;
+    border-radius: 7px;
+    margin-top:10px ;
+
+}
