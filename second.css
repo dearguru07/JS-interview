@@ -4,8 +4,10 @@
     background-color: azure;
     padding: 10px 25px;
     align-items: center;
+    border: 1px solid greenyellow;
     font-family: sans-serif;
     text-align: center;
+    border-radius: 11px;
 }
 input{
     width: 100%;
@@ -24,4 +26,7 @@ button{
     border-radius: 7px;
     margin-top:10px ;
     font-size: 18px;
+}
+p{
+    font-size: 13px;
 }
