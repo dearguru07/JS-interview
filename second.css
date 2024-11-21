@@ -25,6 +25,7 @@ button{
     color: aliceblue;
     border-radius: 7px;
     margin-top:10px ;
+    cursor: pointer;
     font-size: 18px;
 }
 p{
