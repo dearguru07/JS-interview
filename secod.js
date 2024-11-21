@@ -45,8 +45,11 @@ function Click(){
   alert.classList.remove('d-none')
   alert.classList.add('alert')
 
+  if(count.length==0){
+    
+  }
   setTimeout(()=>{
-    alert.classList.remove('d-none')
-    alert.classList.add('alert')
+    alert.classList.add('d-none')
+    alert.classList.remove('alert')
   },3000)
 }
