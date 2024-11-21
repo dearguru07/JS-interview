@@ -20,17 +20,33 @@
 // }
 // console.log(a)
 
-function Click() {
-  let count = document.getElementById("count");
+
+
+// function Click() {
+//   let count = document.getElementById("count");
+//   let name = document.getElementById("name").value;
+//   let passWord = document.getElementById("password").value;
+//   let alert = document.createElement("p");
+//   let para = document.createElement("p");
+//   if (name.length || passWord.length == 0) {
+//     alert.innerText = "Pls fill the all feilds";
+//     count.appendChild(alert);
+//   } else {
+//     para.innerText = "Applied Successfully";
+//     count.appendChild(para);
+//   }
+  
+// }
+
+function Click(){
+  let count = document.getElementById("count").value;
   let name = document.getElementById("name").value;
-  let passWord = document.getElementById("password").value;
-  let alert = document.createElement("p");
-  let para = document.createElement("p");
-  if (name || passWord == "") {
-    alert.innerText = "Pls fill the all feilds";
-    count.appendChild(alert);
-  } else {
-    para.innerText = "Applied Successfully";
-    count.appendChild(para);
-  }
+  let alert=document.getElementById('alert')
+  alert.classList.remove('d-none')
+  alert.classList.add('alert')
+
+  setTimeout(()=>{
+    alert.classList.remove('d-none')
+    alert.classList.add('alert')
+  },3000)
 }
