@@ -54,18 +54,18 @@
 // console.log(3>2>1)
 
 
-// const hello=document.getElementById('hello')
-// hello.onclick=()=>{
-//     hello.innerText='namastee.....'
-// }
-
-
-function* Guru(a,b){
-    yield a+b
-    yield a-b
-    yield a*b
+const hello=document.getElementById('hello')
+hello.onclick=()=>{
+    hello.innerText='namastee.....'
 }
-const res=Guru(4,5)
-console.log(res.next())
-console.log(res.next())
-console.log(res.next())
+
+
+// function* Guru(a,b){
+//     yield a+b
+//     yield a-b
+//     yield a*b
+// }
+// const res=Guru(4,5)
+// console.log(res.next())
+// console.log(res.next())
+// console.log(res.next())
